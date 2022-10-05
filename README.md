@@ -21,8 +21,11 @@ Nuestra URL base es la siguiente:
 *   Obtener un listado de productos del paginador bajo las siguientes condiciones:
     *   Guardar en una tabla el ID (dato importante para visitar el detalle del producto) y nombre de los productos que tengan una calificación igual o mayor a N estrellas, donde N es un número de 1 a 5 definido por el usuario. De no definirse el flag utilizar el número 3 como valor predeterminado.
 *   Luego de obtener el listado, deberá visitar el link de cada uno de los productos obtenidos y realizar las siguientes acciones:
-    *   Guardar el detalle y precio correspondiente a cada producto.
+    *   Guardar el detalle y precio (no tomar en cuenta las variaciones de HDD) correspondiente a cada producto.
     *   Tomar una captura de pantalla de los productos que tengan 10 o más reviews.
+        *    Guardar el nombre asignado al archivo en el producto correspondiente.
+ 
+ ### Ejemplo de cómo llamar el script:
  <pre><code> mi_sript.py --stars 5 </code></pre>
 
 ## Puntos a evaluar

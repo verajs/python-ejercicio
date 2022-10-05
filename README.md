@@ -18,7 +18,7 @@ Deberá crear un fork del proyecto ([link](https://github.com/Kemok-Repos/python
 Nuestra URL base es la siguiente:
 [Sitio de prueba de extracción](https://webscraper.io/test-sites/e-commerce/static/computers/laptops)
 
-*   Obtener un listado de productos del paginador bajo las siguientes condiciones:
+*   Obtener un listado de productos del paginador (recorriendo cada una de las páginas) bajo las siguientes condiciones:
     *   Guardar en una tabla el ID (dato importante para visitar el detalle del producto) y nombre de los productos que tengan una calificación igual o mayor a N estrellas, donde N es un número de 1 a 5 definido por el usuario. De no definirse el flag utilizar el número 3 como valor predeterminado.
 *   Luego de obtener el listado, deberá visitar el link de cada uno de los productos obtenidos y realizar las siguientes acciones:
     *   Guardar el detalle y precio (no tomar en cuenta las variaciones de HDD) correspondiente a cada producto.
